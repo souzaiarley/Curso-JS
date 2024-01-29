@@ -1,0 +1,32 @@
+Variáveis JavaScript
+
+Podemos declarar variáveis de três formas:
+
+1- var: É visível em todo o código. Permite mais de uma declaração.
+ex:
+    {
+        var x = 10; -> Declaração inicial de x = 10.
+    }
+    -> Neste bloco x também é 10;
+
+2- let: É visível apenas em seu bloco de código e nos mais internos. Permite que seja declarado mais de uma vez porém apenas em blocos de código mais internos, onde a variável é sobrescrita. Não permite mais de uma declaração em um mesmo bloco.
+ex:
+    let x = 10; -> Declaração inicial de x.
+
+    { 
+        let x = 5; -> Declaração de x sobrescrita e possui valor 5.
+    }
+
+    -> Neste bloco, x volta a ser 10.
+
+3- const: É visível apenas em seu bloco de código e nos mais internos. Permite que seja declarado mais de uma vez porém apenas em blocos de código mais internos, onde a variável é sobrescrita.  Não permite mais de uma declaração em um mesmo bloco. Também não permite que a variável seja alterada.
+ex:
+    const x = 10; -> Declaração inicial de x.
+
+        { 
+            const x = 5; -> Declaração de x sobrescrita e possui valor 5.
+            -> x não pode ser alterado.
+        }
+
+    -> Neste bloco, x volta a ser 10.
+    -> x não pode ser alterado.

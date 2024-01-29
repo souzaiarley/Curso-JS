@@ -1,0 +1,38 @@
+Declarações
+
+1- As declarações podem ser feitas em linhas distintas ou em uma mesma linha.
+ex: 
+    let a,b,c; a=5; b=6; c=7;
+    ou
+    let a,b,c;
+    a=5;
+    b=6;
+    c=7;
+
+2- O JavaScript ignora espaços em branco.
+ex:
+    let pessoa = "Dimitri" ;
+    let pessoa="Dimitri";
+
+    -> as duas declarações funcionam normalmente e não têm diferença.
+
+3- O JavaScript permite quebras de linha.
+ex:
+    document.getElementById("texto").innerHTML =
+    "Meu primeiro texto <b>JS</b>;
+
+    -> Embora permita quebras de linha, não é uma prática recomendada.
+    -> Se optar pela quebra de linha, que seja após um operador, como no exemplo acima.
+
+4- O JavaScript também permite declarações em formato de bloco, como no uso de funções.
+ex:
+    function minhaFuncao(){
+        document.write("Olá, Mundo!");
+        document.write("Hello, World!");
+        document.write(5+5);
+    }
+
+    -> Os blocos de são definidos pelo uso das chaves "{}".
+
+5- Dicas:
+    -> Recomendado utilizar o ponto e vírgula ";" após uma declaração.

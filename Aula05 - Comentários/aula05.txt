@@ -1,0 +1,13 @@
+Comentários
+
+1- Comentários de uma linha podem ser feitos com "//".
+ex:
+    // Comentários
+
+2- Comentários de várias linhas podem ser feitos com "/* */".
+ex:
+    /*
+        Comentario
+        Comentario
+        Comentario
+    */

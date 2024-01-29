@@ -1,0 +1,17 @@
+Podemos tratar o Javascript de duas formas: Interno e Externo
+
+Interno: O código Javascript é escrito diretamente no arquivo html por meio da tag <script>
+ex:
+
+<script>
+    alert('Olá mundo!');
+</script>
+
+Externo: O código Javascript é escrito em um arquivo separado com terminação .js e então referenciado por meio da tag <script>
+ex:
+
+<script src="js/index.js"></script> -> Neste caso o código Javascript se encontra em uma pasta separada chamada "js".
+
+Dica: Sempre opte por colocar o código Javascript no final do arquivo html, antes do fechamento da tag <body>, sendo ele interno ou externo.
+
+Dica: Sempre use "src" em <script> para referenciar um arquivo .js externamente.
